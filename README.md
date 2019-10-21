@@ -22,7 +22,7 @@ Styling
     https://snazzymaps.com/style/90982/uber-2017
   
   How to use Style.json on Map 
-     do {
+    do {
       // Set the map style by passing the URL of the local file.
       if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
         mapView.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
