@@ -1,0 +1,241 @@
+{
+   "geocoded_waypoints":[
+      {
+         "geocoder_status":"OK",
+         "place_id":"ChIJrTURTkACCDsRUL2V9_HxbRM",
+         "types":[
+            "route"
+         ]
+      },
+      {
+         "geocoder_status":"OK",
+         "place_id":"ChIJO7-pohb4pzsRFC4STaKU9CU",
+         "types":[
+            "route"
+         ]
+      }
+   ],
+   "routes":[
+      {
+         "bounds":{
+            "northeast":{
+               "lat":10.3423703,
+               "lng":76.33787060000002
+            },
+            "southwest":{
+               "lat":10.3017605,
+               "lng":76.2869456
+            }
+         },
+         "copyrights":"Map data ©2019 Google",
+         "legs":[
+            {
+               "distance":{
+                  "text":"8.1 km",
+                  "value":8068
+               },
+               "duration":{
+                  "text":"14 mins",
+                  "value":858
+               },
+               "end_address":"SH61, Kalletumkara, Kerala 680683, India",
+               "end_location":{
+                  "lat":10.3423703,
+                  "lng":76.28759649999999
+               },
+               "start_address":"Police Station Road, South Junction, South Chalakudy, Chalakudy, Kerala 680307, India",
+               "start_location":{
+                  "lat":10.3017605,
+                  "lng":76.33787060000002
+               },
+               "steps":[
+                  {
+                     "distance":{
+                        "text":"0.1 km",
+                        "value":96
+                     },
+                     "duration":{
+                        "text":"1 min",
+                        "value":20
+                     },
+                     "end_location":{
+                        "lat":10.3018341,
+                        "lng":76.33701669999999
+                     },
+                     "html_instructions":"Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003ePolice Station Road\u003c/b\u003e toward \u003cb\u003eMain Rd\u003c/b\u003e/\u003cb\u003eOld Hwy\u003c/b\u003e/\u003cb\u003eTrunk Rd\u003c/b\u003e",
+                     "polyline":{
+                        "points":"_a{}@uv|pMAVEd@Oz@@FBDBL?F?J"
+                     },
+                     "start_location":{
+                        "lat":10.3017605,
+                        "lng":76.33787060000002
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"0.7 km",
+                        "value":657
+                     },
+                     "duration":{
+                        "text":"2 mins",
+                        "value":96
+                     },
+                     "end_location":{
+                        "lat":10.3070429,
+                        "lng":76.3341933
+                     },
+                     "html_instructions":"Turn \u003cb\u003eright\u003c/b\u003e at Unimoni Financial Services Ltd onto \u003cb\u003eService Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Idea Store (on the left)\u003c/div\u003e",
+                     "maneuver":"turn-right",
+                     "polyline":{
+                        "points":"ma{}@kq|pMWHWHSFSFgAd@UJa@ROHGB_@NsAl@s@\\eBv@qBz@a@NoAh@uB`AaAd@wBjA"
+                     },
+                     "start_location":{
+                        "lat":10.3018341,
+                        "lng":76.33701669999999
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"10 m",
+                        "value":10
+                     },
+                     "duration":{
+                        "text":"1 min",
+                        "value":4
+                     },
+                     "end_location":{
+                        "lat":10.3070052,
+                        "lng":76.33411149999999
+                     },
+                     "html_instructions":"Turn \u003cb\u003eleft\u003c/b\u003e at Chalakkudy Night Thattukada onto \u003cb\u003eChalakudi Mala Rd\u003c/b\u003e/\u003cb\u003eRailway Station Rd\u003c/b\u003e",
+                     "maneuver":"turn-left",
+                     "polyline":{
+                        "points":"_b|}@u_|pMDN"
+                     },
+                     "start_location":{
+                        "lat":10.3070429,
+                        "lng":76.3341933
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"1.9 km",
+                        "value":1924
+                     },
+                     "duration":{
+                        "text":"3 mins",
+                        "value":194
+                     },
+                     "end_location":{
+                        "lat":10.321783,
+                        "lng":76.3252239
+                     },
+                     "html_instructions":"Turn \u003cb\u003eright\u003c/b\u003e at Meluha Mobiles and Computers onto \u003cb\u003eNH544\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Potta Ashram Jct (on the left in 1.6&nbsp;km)\u003c/div\u003e",
+                     "maneuver":"turn-right",
+                     "polyline":{
+                        "points":"ya|}@e_|pMHTsEnCiBnAkBfAwA|@kBlAu@f@iAr@]Rk@\\i@\\kAj@w@`@QH}LtFeAb@_FvB}BbA{BbAoAj@qFfC}Ap@uAp@eFxBaFvB"
+                     },
+                     "start_location":{
+                        "lat":10.3070052,
+                        "lng":76.33411149999999
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"1.0 km",
+                        "value":983
+                     },
+                     "duration":{
+                        "text":"2 mins",
+                        "value":93
+                     },
+                     "end_location":{
+                        "lat":10.3298621,
+                        "lng":76.32208170000001
+                     },
+                     "html_instructions":"Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eService Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by La Pintura (on the left in 900&nbsp;m)\u003c/div\u003e",
+                     "maneuver":"keep-left",
+                     "polyline":{
+                        "points":"c~~}@sgzpMDLiBx@eBr@aBt@cChAqBx@g@VcAb@yCnAeBh@}@ToAT_Ej@wDX{DT"
+                     },
+                     "start_location":{
+                        "lat":10.321783,
+                        "lng":76.3252239
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"4.3 km",
+                        "value":4295
+                     },
+                     "duration":{
+                        "text":"7 mins",
+                        "value":416
+                     },
+                     "end_location":{
+                        "lat":10.3417072,
+                        "lng":76.2869456
+                     },
+                     "html_instructions":"Turn \u003cb\u003eleft\u003c/b\u003e at the bridge onto \u003cb\u003eSH61\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Vazhakunnu Bus Stop (on the left in 600&nbsp;m)\u003c/div\u003e",
+                     "maneuver":"turn-left",
+                     "polyline":{
+                        "points":"sp`~@_typM@zAA^C^E`@CROpAIj@Mj@Kb@I^I`@OlAKv@c@|D]lBQv@CPEPAHANA\\AJA~AM~AANALGVIXM\\[p@c@x@CHADCJAJ?N?V@pAD`EDbCD|AFlA@Z@Lh@lIBd@Bx@?TAPAF?BAHQr@EPCHCHEFEDGJMJk@XULQHaB`AcBjAYRSL]X]Z]X{EtEw@x@YV_@`@e@p@_@l@OZS`@]v@Qj@IVG^Gl@ItAOnCARG`@YfBUbAu@rC_@|AK\\u@lCy@`CQn@GRCVG~@M~AIlAAHUjB[vBs@vCOp@KXGPGLKPKLOPSRiAbAmDxCwAfAq@h@EDKHEDGFEHGJEHEL@h@@b@Bb@F|@Hr@J`AHr@Dj@?T?T?RATIj@Q|@WrACHGPe@xAm@~B"
+                     },
+                     "start_location":{
+                        "lat":10.3298621,
+                        "lng":76.32208170000001
+                     },
+                     "travel_mode":"DRIVING"
+                  },
+                  {
+                     "distance":{
+                        "text":"0.1 km",
+                        "value":103
+                     },
+                     "duration":{
+                        "text":"1 min",
+                        "value":35
+                     },
+                     "end_location":{
+                        "lat":10.3423703,
+                        "lng":76.28759649999999
+                     },
+                     "html_instructions":"Turn \u003cb\u003eright\u003c/b\u003e at Ak 57 Two Wheel Garage",
+                     "maneuver":"turn-right",
+                     "polyline":{
+                        "points":"uzb~@mxrpMCCs@i@i@o@a@c@"
+                     },
+                     "start_location":{
+                        "lat":10.3417072,
+                        "lng":76.2869456
+                     },
+                     "travel_mode":"DRIVING"
+                  }
+               ],
+               "traffic_speed_entry":[
+
+               ],
+               "via_waypoint":[
+
+               ]
+            }
+         ],
+         "overview_polyline":{
+            "points":"_a{}@uv|pMG|@Oz@@FFR?RwAb@oCnAoD~AwErBqBx@wDfBwBjADNHTsEnCiBnAcEdCaDtB}DbCcClAoM~F_PbHuNvGgMpFDLiBx@gEhBuFbCkBz@yCnAeBh@mCj@_Ej@wDX{DT@zAE~@c@rDm@pC[dCc@|D]lBUhAGZCl@CjBOnBId@Wv@_AjBKf@?f@FrGJ`FHhBj@zIF~ACr@]xAWb@y@d@g@VeElCm@`@{@t@yFnFqApAeArAo@hAq@xA[bAOlAYdFIt@o@jDuApFaAjDkApDKj@U~CKvAq@bFcAhESj@S^[^}AvAeG`FiA~@[f@EL@h@DfAPpBTtBD`A?h@K`Ai@pCKZe@xAm@~Bw@m@kAsA"
+         },
+         "summary":"SH61",
+         "warnings":[
+
+         ],
+         "waypoint_order":[
+
+         ]
+      }
+   ],
+   "status":"OK"
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aSt-Lk-W8o">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Google Map View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="GoogleMapViewController" id="BYZ-38-t0r" customClass="GoogleMapViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="google" id="kjd-cg-ynx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="27"/>
+        </scene>
+        <!--Apple Map View Controller-->
+        <scene sceneID="vU9-Dm-Rrk">
+            <objects>
+                <viewController storyboardIdentifier="AppleMapViewController" id="fnC-4A-lfW" customClass="AppleMapViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hq6-kO-mO4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NQ3-03-ON2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="apple" id="jdx-WR-A6Y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Num-2r-B6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668" y="26.53673163418291"/>
+        </scene>
+        <!--Map Box View Controller-->
+        <scene sceneID="MYl-eZ-zb3">
+            <objects>
+                <viewController storyboardIdentifier="MapBoxViewController" id="VU5-qS-2Br" customClass="MapBoxViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qCl-0P-3OT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2wX-dl-ulH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="mapbox" id="3Pu-kZ-MPt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S39-8R-z2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2318" y="27"/>
+        </scene>
+        <!--Apple Map Car View Controller-->
+        <scene sceneID="Tuz-4W-1gU">
+            <objects>
+                <viewController storyboardIdentifier="AppleMapCarViewController" id="JiA-Ay-zhM" customClass="AppleMapCarViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WTe-1M-IYl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="saa-Ry-6UQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="apple" id="H58-w9-a8t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djG-L6-mja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2993" y="27"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="phh-Si-I8f">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="aSt-Lk-W8o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="It8-yg-Wbo">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qh2-uo-lIG"/>
+                        <segue destination="fnC-4A-lfW" kind="relationship" relationship="viewControllers" id="6uV-Hu-0tL"/>
+                        <segue destination="VU5-qS-2Br" kind="relationship" relationship="viewControllers" id="Wtr-X7-iKe"/>
+                        <segue destination="JiA-Ay-zhM" kind="relationship" relationship="viewControllers" id="gxA-GX-kwx"/>
+                        <segue destination="BdO-3U-Eve" kind="relationship" relationship="viewControllers" id="5OJ-YU-JgD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmO-yI-yhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+        </scene>
+        <!--Simulate Google Map View Controller-->
+        <scene sceneID="sPj-fD-XaY">
+            <objects>
+                <viewController storyboardIdentifier="SimulateGoogleMapViewController" id="BdO-3U-Eve" customClass="SimulateGoogleMapViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Buf-TM-MRA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fr3-JY-k04">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eod-fp-XBs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Simulate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="simulateMovement:" destination="BdO-3U-Eve" eventType="touchUpInside" id="tZx-7B-Bzv"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeC-No-yPZ" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="70" width="375" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1NG-wC-U3F" firstAttribute="bottom" secondItem="MeC-No-yPZ" secondAttribute="bottom" id="Jm2-TV-4HZ"/>
+                            <constraint firstItem="1NG-wC-U3F" firstAttribute="trailing" secondItem="Fr3-JY-k04" secondAttribute="trailing" id="SRN-BT-6bC"/>
+                            <constraint firstItem="MeC-No-yPZ" firstAttribute="top" secondItem="Fr3-JY-k04" secondAttribute="bottom" id="UpA-fU-gbJ"/>
+                            <constraint firstItem="MeC-No-yPZ" firstAttribute="leading" secondItem="1NG-wC-U3F" secondAttribute="leading" id="Uww-CW-Wn6"/>
+                            <constraint firstItem="Fr3-JY-k04" firstAttribute="leading" secondItem="1NG-wC-U3F" secondAttribute="leading" id="YvE-Zd-v4F"/>
+                            <constraint firstItem="1NG-wC-U3F" firstAttribute="trailing" secondItem="MeC-No-yPZ" secondAttribute="trailing" id="ZC8-g6-n2T"/>
+                            <constraint firstItem="Fr3-JY-k04" firstAttribute="top" secondItem="1NG-wC-U3F" secondAttribute="top" id="i7u-MI-ZO5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1NG-wC-U3F"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="google" id="nMj-8d-iPz"/>
+                    <connections>
+                        <outlet property="mapView" destination="MeC-No-yPZ" id="K9M-87-QFJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhS-Oc-oZs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3748" y="27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple" width="24" height="24"/>
+        <image name="google" width="24" height="24"/>
+        <image name="mapbox" width="24" height="24"/>
+    </resources>
+</document>

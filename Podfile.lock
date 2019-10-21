@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.4.0)
+  - CryptoSwift (0.15.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - Mapbox-iOS-SDK (5.0.0)
+  - PusherSwift (7.0.0):
+    - CryptoSwift (~> 0.9)
+    - ReachabilitySwift (= 4.3.0)
+    - Starscream (~> 3.0.5)
+  - ReachabilitySwift (4.3.0)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - GoogleMaps
+  - GooglePlaces
+  - Mapbox-iOS-SDK (~> 5.0)
+  - PusherSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - GoogleMaps
+    - GooglePlaces
+    - Mapbox-iOS-SDK
+    - PusherSwift
+    - ReachabilitySwift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  Mapbox-iOS-SDK: 018266d830ecb6e57d913494c280383b47981590
+  PusherSwift: d15d6290be0b0b57fd9ac80b03661a6ba24623ec
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 6746fadc1d756871c7d5897be182b64a47bb18bc
+
+COCOAPODS: 1.5.3
