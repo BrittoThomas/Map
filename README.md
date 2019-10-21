@@ -17,11 +17,11 @@ Styling
 
   Map Style Creation
   
-    Create JSON for Map style from google map 
-    https://mapstyle.withgoogle.com
+  Create JSON for Map style from google map 
+  https://mapstyle.withgoogle.com
     
   Example - Uber like Style
-    https://snazzymaps.com/style/90982/uber-2017
+  https://snazzymaps.com/style/90982/uber-2017
   
   How to use Style.json on Map 
   
